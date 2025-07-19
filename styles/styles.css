@@ -1,0 +1,128 @@
+/* nav bar */
+nav {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-left: 120px;
+  margin-right: -320px;
+}
+
+.left {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #3a3a3a;
+}
+.right {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  font-size: 1rem;
+  font-weight: 600px;
+}
+.right-1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 15px;
+}
+.right-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 0.13fr);
+  margin-top: 42px;
+}
+/* section 1 */
+
+.section-1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-left: 120px;
+  margin-right: -320px;
+}
+
+.div-1 {
+  max-width: 582px;
+  height: 270px;
+}
+.div-2 {
+  background-image: url("../images/Circle design.svg");
+  background-repeat: no-repeat;
+}
+.div-2 img {
+  max-width: 440px;
+  height: 414px;
+}
+.title-1 {
+  font-size: 3.25rem;
+  font-weight: 700;
+  color: #3a3a3a;
+}
+.description {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.btn-primary {
+  color: white;
+  padding: 10px 24px;
+  border-radius: 41px;
+  border: none;
+  background-color: #e02c6d;
+}
+
+/* section 2 */
+.section-2 {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  max-width: 1110px;
+  height: 110px;
+
+  margin: 0 auto;
+  margin-top: 130px;
+
+  border-top: 2px solid rgba(18, 17, 17, 0.046);
+  border-bottom: 2px solid rgba(18, 17, 17, 0.044);
+  justify-content: center;
+  align-items: center;
+}
+/* section 3 */
+.section-3 {
+  max-width: 1047px;
+  height: 1662px;
+  margin: 0 auto;
+}
+
+.title-2 {
+  text-align: center;
+  color: #3a3a3a;
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+.popular {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+}
+.num {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #787885;
+}
+.description-2 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #787885;
+}
+.title-3 {
+  font-size: 1.75rem;
+  font-weight: 500;
+}
+.collection {
+  max-width: 329px;
+  height: 576px;
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(14, 13, 14, 0.108);
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.collection img {
+  margin-top: 15px;
+}
